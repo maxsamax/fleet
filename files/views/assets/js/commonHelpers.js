@@ -1,0 +1,1 @@
+function getParameterByName(a){a=a.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var b=new RegExp("[\\?&]"+a+"=([^&#]*)"),c=b.exec(location.search);return null===c?"":decodeURIComponent(c[1].replace(/\+/g," "))}function getCurrentTrailer(){return _.find(AllUnitsLatestHistory,function(a){return a.Information.whrztSn==localStorage.currentDeviceSn})}

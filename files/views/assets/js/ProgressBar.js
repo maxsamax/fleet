@@ -1,0 +1,1 @@
+var progressBar=[{step:"Step 1",name:"Create Login",active:!1,completed:!1},{step:"Step 2",name:"Setup Devices",active:!1,completed:!1},{step:"Step 3",name:"Billing",active:!1,completed:!1},{step:"Step 4",name:"Activation",active:!1,completed:!1},{step:"Step 5",name:"Setup Trailers",active:!1,completed:!1},{step:"Step 6",name:"Invite Users",active:!1,completed:!1}];

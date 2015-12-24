@@ -1,0 +1,1 @@
+Appery.GeoFencesListImpl=Appery.createClass(null,{init:function(a){this.__requestOptions=$.extend({},a)},process:function(a){a.beforeSend(a),ConvertAddressCount=0;var b=GFallTrailers[localStorage.getItem("CurrentSelectedTrailerCarl")]||[];b.length?a.success(b):a.success([]),a.complete("success")}});

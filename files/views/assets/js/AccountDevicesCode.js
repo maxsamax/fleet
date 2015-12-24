@@ -1,0 +1,1 @@
+var devices={myDevices:[],deviceValidation:function(){var a=!0,b=Appery("EnterWhrztID").val().toUpperCase();return Appery("EnterWhrztID").val(b),b&&b.match(/[A-HJ-NPR-Z]{3}\d{3}/)||(Appery("deviceIdError").show(),a=!1),a},saveDeviceId:function(){this.deviceValidation()?addDevice.execute():Appery("EnterWhrztID").val("")}};

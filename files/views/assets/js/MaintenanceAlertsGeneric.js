@@ -1,0 +1,1 @@
+Appery.MaintenanceAlertsGeneric=Appery.createClass(null,{init:function(a){this.__requestOptions=$.extend({},a)},process:function(a){a.beforeSend(a);var b=getCurrentTrailer().MaintenanceAlerts;b?a.success(b):a.success({}),a.complete("success")}});

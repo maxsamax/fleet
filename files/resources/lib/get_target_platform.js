@@ -1,0 +1,1 @@
+Appery.getTargetPlatform=function(){return""};

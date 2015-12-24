@@ -1,0 +1,1 @@
+Appery.progressBarImpl=Appery.createClass(null,{init:function(a){this.__requestOptions=$.extend({},a)},process:function(a){a.beforeSend(a),a.success(progressBar),a.complete("success")}});

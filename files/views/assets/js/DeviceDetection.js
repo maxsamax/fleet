@@ -1,0 +1,1 @@
+!function(a,b){var c=setInterval(function(){try{if(Settings){clearInterval(c);var d,e=(a.innerHeight,a.innerWidth),f=Settings.mobile_url+"/m_LoginPage.html";1024>=e&&(d=b.hash?f+b.hash:f,b.href=d)}}catch(g){}},100)}(window,window.location);

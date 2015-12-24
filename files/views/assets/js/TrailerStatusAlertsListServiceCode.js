@@ -1,0 +1,1 @@
+Appery.TrailerStatusAlertsListServiceCode=Appery.createClass(null,{init:function(a){this.__requestOptions=$.extend({},a)},process:function(a){if(a.beforeSend(a),this.__requestOptions.echo)a.success(this.__requestOptions.echo);else{var b=[];if(AlertsViewGridVisible){var c=getCurrentTrailer();b=c.GeoFenceAlerts}a.success({GeoFenceAlerts:b})}a.complete("success")}});

@@ -1,0 +1,1 @@
+function setDefaultTransition(){var a=$(window).width(),b="slide";a>=1e3?b="none":a>=650&&(b="fade"),$.mobile.defaultPageTransition=b}$(document).bind("mobileinit",setDefaultTransition),$(function(){$(window).bind("throttledresize",setDefaultTransition)});

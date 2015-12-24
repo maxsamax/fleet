@@ -1,0 +1,1 @@
+function loadTrailerStatuslistItem(){TrailerStatusListItemHasBeenLoaded||(ListViewGetLatestForAllTrailersv2.execute(),TrailerStatusListItemHasBeenLoaded=!0)}var TrailerStatusListItemHasBeenLoaded=!1;
