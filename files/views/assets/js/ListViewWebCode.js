@@ -1,1 +1,1 @@
-function loadTrailerStatuslistItem(){TrailerStatusListItemHasBeenLoaded||(ListViewGetLatestForAllTrailersv2.execute(),TrailerStatusListItemHasBeenLoaded=!0)}var TrailerStatusListItemHasBeenLoaded=!1;
+function loadTrailerStatuslistItem(){TrailerStatusListItemHasBeenLoaded||(ListViewGetLatestForAllTrailersv2.execute(),TrailerStatusListItemHasBeenLoaded=!0)}var AllUnitsAddressIndex,TrailerStatusListItemHasBeenLoaded=!1;
